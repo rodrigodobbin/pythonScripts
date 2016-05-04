@@ -43,6 +43,5 @@ for i in range(deltaX + 1):
     i = i + 1
 
 print("\n")
-
 for row in matrix:
     print(" ".join(row))

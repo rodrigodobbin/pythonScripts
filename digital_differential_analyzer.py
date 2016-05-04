@@ -65,6 +65,5 @@ while i <= size:
     i += 1
 
 print("\n")
-
 for row in matrix:
     print(" ".join(row))
