@@ -13,7 +13,7 @@ print("\nNow let's set the coordinates of two points, so we can draw a line.\n")
 # Create a n*m matrix
 matrix = [["." for x in range(columns)] for x in range(lines)]
 
-# Function that turn on and off the point in the matrix
+# Function that turn on the point in the matrix
 def connectPoints(x, y):
     # By default we round up the number
     # If you want to round down uncomment the math.floor() methods, and comment the math.ceil() methods
@@ -37,7 +37,6 @@ y2 = int(input("Type the 'y' coordinate for the second point\n"))
 xAbsValue = abs(x2 - x1)
 yAbsValue = abs(y2 - y1)
 
-# Criando variável size
 # Create size variable
 if xAbsValue >= yAbsValue:
     size = xAbsValue

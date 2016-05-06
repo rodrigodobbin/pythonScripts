@@ -12,7 +12,7 @@ print("\nNow let's set the coordinates of two points, so we can draw a line.\n")
 # Create a n*m matrix
 matrix = [["." for x in range(columns)] for x in range(lines)]
 
-# Função que liga/desliga o ponto na matrix
+# Function that turn on the point in the matrix
 def connectPoints(x, y):
     matrix[lines - 1 - y][x] = "X"
 
