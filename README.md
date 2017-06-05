@@ -17,6 +17,15 @@ To run a script `cd` into the folder and run the command:
 
 ### Bresenham Line Generation
 
-Is an algorithm that determines the points of an n-dimensional raster that should be selected in order to form a close approximation to a straight line between two points.
+Is an algorithm that determines the points of an n-dimensional raster that should be selected in order to form a close
+approximation to a straight line between two points.
 
 ### Digital Differential Analyzer
+
+Is an algorithm used for interpolation of variables over an interval between start and end point. DDAs are used for
+rasterization of lines, triangles and polygons. They can be extended to non linear functions, such as perspective
+correct texture mapping, quadratic curves, and traversing voxels.
+
+The support we give here is for raster:
+
+ 1. Lines
