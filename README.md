@@ -17,4 +17,6 @@ To run a script `cd` into the folder and run the command:
 
 ### Bresenham Line Generation
 
+Is an algorithm that determines the points of an n-dimensional raster that should be selected in order to form a close approximation to a straight line between two points.
+
 ### Digital Differential Analyzer
