@@ -6,4 +6,4 @@ You need to have python 3.x.x installed in your machine to run the scripts from 
 
 To run a script `cd` into the folder and run the command:
 
-python SCRIPT_NAME.py
+`python SCRIPT_NAME.py`
