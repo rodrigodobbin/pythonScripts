@@ -24,6 +24,7 @@ y1 = int(input("Type the 'y' coordinate for the first point\n"))
 x2 = int(input("Type the 'x' coordinate for the second point\n"))
 y2 = int(input("Type the 'y' coordinate for the second point\n"))
 
+
 # Create variables
 x = x1
 y = y1
